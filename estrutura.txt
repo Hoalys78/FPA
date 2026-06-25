@@ -1,0 +1,37 @@
+dashboard-fpa-financial-analysis/
+│
+├── README.md
+│
+├── data/
+│   ├── raw/
+│   │   └── financial_sample.xlsx
+│   │
+│   └── processed/
+│       ├── ft_vendas.xlsx
+│       ├── ft_budget.xlsx
+│       └── dim_calendario.xlsx
+│
+├── notebooks/
+│   └── exploracao_dados.ipynb
+│
+├── src/
+│   └── etl_financial_sample.py
+│
+├── dashboard/
+│   ├── Dashboard_FP&A.pbix
+│   └── Dashboard_FP&A.pbit
+│
+├── images/
+│   ├── dashboard_executivo.png
+│   ├── dashboard_comercial.png
+│   ├── dashboard_geografico.png
+│   └── dashboard_dre.png
+│
+├── docs/
+│   ├── dicionario_dados.md
+│   ├── regras_negocio.md
+│   └── arquitetura_projeto.md
+│
+├── requirements.txt
+│
+└── LICENSE
